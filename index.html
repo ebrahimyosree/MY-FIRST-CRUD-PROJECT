@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>first project</h2>
+        <h2>PRODUCT MANAGEMENT SYSTEM</h2>
+
+        <div class="inputs">
+            <input type="text" placeholder="title:" id="title">
+            <div class="row">
+                <input type="number" onkeyup="getTotal()" placeholder="price:" id="price">
+                <input type="number"  onkeyup="getTotal()" placeholder="taxes:" id="taxes">
+                <input type="number" onkeyup="getTotal()" placeholder="ads:" id="ads">
+                <input type="number" onkeyup="getTotal()" placeholder="discount" id="discount">
+
+            <small id="total" class="Total">0</small>
+            <input type="number" placeholder="count" id="count">
+            <input type="text" placeholder="category" id="category">
+            </div>
+            <button id="sumb" class="btn">Create</button>
+
+        </div class="outputs">
+
+        <input type="text" placeholder="Search" id="search">
+        <div class="search-btns">
+            <button id="search-title" class="btn">Search By Title</button>
+            <button class="btn">Search By Category</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>TAXES</th>
+                    <th>ADS</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>samsung</td>
+                    <td>2000</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>2100</td>
+                    <td>phone</td>
+                    <td><button class="btn btn-sm">update</button></td>
+                    <td><button class="btn btn-sm delete">delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

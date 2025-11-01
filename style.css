@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 85%; 
+    height: 100vh;
+    margin:auto;
+    padding-top: 20px;
+    
+}   
+
+h2  {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.row input {
+    width: 24%;
+    margin-right: 1%;
+}
+
+.Total {
+    color: red;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 14%;
+
+}
+#total::before {
+    content: "Total:";
+    color: #ee0d0d;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: purple;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background: #4d0099;
+    transition: 0.5s;
+}
+
+.search-btns {
+    display: flex;
+    gap: 10px;
+}
+
+.search-btns .btn {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.delete {
+    background: crimson;
+}
+
+.delete:hover {
+    background: 4d0099;
+}
