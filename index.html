@@ -11,7 +11,7 @@
 <body>
 
     <div class="container">
-        <h2>first project</h2>
+        <h2>Hema project</h2>
         <h2>PRODUCT MANAGEMENT SYSTEM</h2>
 
         <div class="inputs">
@@ -27,13 +27,13 @@
             <input type="text" placeholder="category" id="category">
             </div>
             <button id="sumb" class="btn">Create</button>
-            <div id="deleteAll" class="dall">DeleteAll</div>
+            <div id="deleteAll" class="da" ></div>
         </div class="outputs">
 
-        <input type="text" placeholder="Search" id="search">
+        <input onkeyup="searchData(this.value)" type="text" placeholder="Search" id="search">
         <div class="search-btns">
-            <button id="search-title" class="btn">Search By Title</button>
-            <button class="btn" id="search-category">Search By Category</button>
+            <button id="search-title" onclick="getSearchMood(this.id)" class="btn">Search By Title</button>
+            <button class="btn" onclick="getSearchMood(this.id)" id="search-category">Search By Category</button>
         </div>
 
         <table  >

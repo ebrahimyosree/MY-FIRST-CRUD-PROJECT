@@ -99,7 +99,7 @@ table th, table td {
 .delete:hover {
     background: 4d0099;
 }
-.dall {
+.da {
     background: rgba(229, 11, 11, 0.411);
     width: 100%;
     text-align: center;
@@ -109,7 +109,7 @@ table th, table td {
     margin-top: 10px;
 
 } 
-.dall:hover {
+.da:hover {
     background: rgb(236, 6, 6);
     transition: 0.4s;
 }
